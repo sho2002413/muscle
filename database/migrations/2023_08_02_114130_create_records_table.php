@@ -18,7 +18,7 @@ return new class extends Migration
             $table->integer('time');
             $table->integer('weight');
             $table->integer('count');
-            $table->integer('trainings_id');
+            $table->foreignId('training_id')->constrained(); 
         });
     }
 
