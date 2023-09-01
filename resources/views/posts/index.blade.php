@@ -42,7 +42,7 @@
             {{ $posts->links() }}
         </div>
         <div class='footer'>
-               <a href="/">戻る</a>
+               <a href="/posts/reflect">戻る</a>
         </div>
     </body>
 </html>

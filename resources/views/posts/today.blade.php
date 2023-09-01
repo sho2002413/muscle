@@ -44,7 +44,4 @@
 
 
    </body>
-    <div class='footer'>
-         <a href="/posts/create">戻る</a>
-    </div>
 </html>
