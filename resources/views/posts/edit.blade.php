@@ -25,9 +25,6 @@
                      　          <p>{{$record->time}}</p>
                      　       </div>
                            @endforeach
-           </div>
-    
-        
       <form action= "/posts/{{ $post->id }}/save" method="POST">
              @csrf
              @method('PUT')

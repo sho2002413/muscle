@@ -16,6 +16,9 @@
    　<div class='past'>
         <a href='/posts/myself'>過去のトレーニング</a>
      </div>
+     <div class='logout'>
+         <a href='/dashboard'>戻る</a>
+     </div>
 </body>
 </html>
 
