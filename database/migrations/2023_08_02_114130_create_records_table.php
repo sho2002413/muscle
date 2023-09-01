@@ -16,10 +16,13 @@ return new class extends Migration
         Schema::create('records', function (Blueprint $table) {
             $table->id();
             $table->integer('time');
-            $table->integer('weight');
+            $table->integer('weight')->nullable();
             $table->integer('count');
-            $table->integer('trainings_id');
-        });
+            $table->integer('set');
+            $table->foreignId('post_id');
+            $table->foreignId('training_id');
+            $table->timestamps();
+             });
     }
 
     /**

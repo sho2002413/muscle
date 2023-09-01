@@ -1,0 +1,36 @@
+
+.post {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
+}
+.post p {
+    margin: 0; 
+    padding: 0;
+}
+
+.record {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.record p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.body {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.body p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+

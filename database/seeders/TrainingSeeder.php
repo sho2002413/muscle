@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Seeder;
 
 class TrainingSeeder extends Seeder
@@ -15,7 +16,7 @@ class TrainingSeeder extends Seeder
     public function run()
     {
          DB::table('trainings')->insert([
-                'part_id' => '2',
+                'part_id' => '1',
                 'name' => 'ベンチプレス',
          ]);
          

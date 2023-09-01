@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->integer('records_id');
-            $table->integer('users_id');
+            $table->string('body')->nullable();
+            $table->foreignId('user_id');
             $table->timestamps();
             
         });
